@@ -61,7 +61,8 @@ img {
 .home {
   background: linear-gradient(to bottom, navy, pink );
   text-align: center;
-  padding-bottom: 2em;
+  padding: 10em;
+  
 }
 
 .home__text h1 {
@@ -228,6 +229,7 @@ img {
 }
 
 
+/* Downloads */
 .download {
   padding: 3em 0;
 
@@ -331,4 +333,308 @@ input {
   margin: .5em 0;
   border: none;
   border-radius: 100px;
+}
+
+@media only screen and (min-width: 768px){
+
+  .container {
+    width: 90%;
+    margin: auto;
+    
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__text {
+    padding-top: 2em;
+    
+  }
+  
+  .nav .fa {
+      font-size: 1.7rem;
+      color: #fff;
+  }
+  
+  .nav__logo {
+    font-size: .5rem;
+    padding-top: 1em;
+  }
+
+  .nav__text ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav__text li {
+    margin: 0 .3em;
+    
+  }
+  
+  .nav__text a {
+    font-size: .8em;
+    letter-spacing: 1px;
+  
+  }
+  
+  
+  .home__text h1 {
+    
+    padding-bottom: .3em;
+  }
+  
+  .home__text p {
+    width: 80%;
+    padding-bottom: .5em;
+  }
+  
+  .btn {
+    
+    width: 35%;
+    
+    padding: .8em 1em;
+    
+    margin: .5em auto;
+    
+  }
+  
+  .btn a {
+    
+    letter-spacing: 1px;
+  }
+  
+  .learn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    
+  }
+
+  .product {
+    padding: 2em 0;
+  }
+  
+  .product__text {
+    width: 60%;
+    
+  }
+  .product__text h1 {
+    width: 90%;
+    padding-bottom: 0;
+  }
+  
+  .features {
+    padding: 2em 0;
+    
+  }
+  
+  
+  
+  .testimonials__text h1 {
+    text-align: left;
+    
+  }
+  
+  .testimonials__text p {
+    
+    width: 100%;
+    
+  }
+  
+  .testimonials__img h3 {
+    
+    text-align: left;
+    
+  }
+
+  .download__text {
+    width: 50%;
+    padding: 2em 0;
+    
+  } 
+
+  
+  .contact__text p {
+    
+    padding-bottom: 1em;
+  }
+  
+  .contact__text--data a {
+    padding-right: 1em;
+    
+  }
+
+  .contact__map {
+    width: 50%;
+  }
+  .contact__map img {
+    width: 100%;
+  }
+  
+  .in__text {
+    border-bottom: 1px solid silver;
+    background-color: transparent;
+  }
+  
+  .submit {
+    background: blue;
+    font-size: 1rem;
+    margin: .5em 0;
+    border: none;
+    border-radius: 100px;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px){
+  .nav__text {
+    padding-top: 4em;
+    
+  }
+  
+  .nav .fa {
+      
+      display: none;
+      
+  }
+  
+  .nav__logo {
+    font-size: 1.5rem;
+    padding-top: .5em;
+  }
+
+  .nav__text ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav__text li {
+    margin: 0 1.5em;
+    
+  }
+  
+  .nav__text a {
+    font-size: 1rem;
+    padding-bottom: 1em;
+    transition: .2s;
+  }
+
+  .nav__text a:hover {
+    color: silver;
+  }
+  
+  
+  .home__text h1 {
+    font-size: 5.5rem;
+    padding-bottom: .3em;
+  }
+  
+  .home__text p {
+    width: 100%;
+    text-align: center  ;
+    padding-bottom: 1em;
+    
+  }
+  
+  .btn {
+    
+    width: 30%;
+    padding: 1em 1.5em;
+    margin: .5em auto;
+    transition: .2s;
+  }
+
+  .btn:hover {
+    background-color: orange;
+    box-shadow: 1px 4px 3px #111;  
+  }
+  
+  .btn a {
+    letter-spacing: 3px;
+  }
+  
+  .learn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    
+  }
+
+  .product {
+    padding: 10em 0;
+    
+  }
+  
+  .product__text {
+    width: 60%;
+    
+    
+  }
+  
+  .features {
+    padding: 10em 0;
+    
+  }
+
+  .features__img a {
+    transition: .2s;  
+    border: 2px solid transparent;    
+  }
+
+  .features__img a:hover {
+    font-size: 10rem;
+    border-bottom: 1px solid red;
+  }
+  
+  .testimonials {
+    padding: 15em 0;
+    
+  }
+  
+  .testimonials__img--vectors a {
+    font-size: 15rem;
+  }
+
+  .download {
+    padding: 10em 0;
+    
+  }
+
+  .download__text {
+    
+    padding: 2em 0;
+    
+  } 
+
+  
+  .contact__text p {
+    
+    padding-bottom: 1em;
+  }
+  
+  .contact__text--data a {
+    padding-right: 1em;
+    
+  }
+
+  .contact__map {
+    width: 50%;
+  }
+  .contact__map img {
+    width: 100%;
+  }
+  
+  .in__text {
+    border-bottom: 1px solid silver;
+    background-color: transparent;
+  }
+  
+  .submit {
+    background: blue;
+    font-size: 1rem;
+    margin: .5em 0;
+    border: none;
+    border-radius: 100px;
+  }
 }
